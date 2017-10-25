@@ -6,11 +6,11 @@ The purpose of this assignment is to apply course concepts introduced in class a
 
 # QRS-complex Detection Algorithm Explained:
 ## Data preprocessing
-Receive and read input from ECG dataset
-Remove 8V DC offset
-Partition data subset containing first 10 seconds of ECG data for ease of testing
-Baseline wander filtering
-Filter out baseline wander distortion using a highpass IIR filter with a cutoff frequency of approximately 0.5Hz, using forward-backward IIR filtering to remove the effects of IIR filtering’s non-linear phase response
+1. Receive and read input from ECG dataset
+2. Remove 8V DC offset
+3. Partition data subset containing first 10 seconds of ECG data for ease of testing
+4. Baseline wander filtering
+5. Filter out baseline wander distortion using a highpass IIR filter with a cutoff frequency of approximately 0.5Hz, using forward-backward IIR filtering to remove the effects of IIR filtering’s non-linear phase response
 Powerline interference filtering
 Filter out 50-60Hz powerline interference by employing a linear bandstop filter centered at approximately 60Hz
 QRS-detection preprocessing
