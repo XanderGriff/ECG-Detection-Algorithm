@@ -1,11 +1,10 @@
 # ECG-Detection-Algorithm
 An algorithm built for real-time detection of QRS-complexes in ECG datasets
 
-# Introduction:
+## Introduction:
 This project entails the processing and analysis of an ECG dataset in an effort to develop and test a QRS-complex detection algorithm. In developing the detection algorithm, multiple procedural subtasks were identified, defined, and executed. These subtasks are outlined below.
 
-# QRS-complex Detection Algorithm Explained:
-## Data preprocessing
+## QRS-complex Detection Algorithm Explained:
 1. Receive and read input from ECG dataset
 2. Remove 8V DC offset
 3. Partition data subset containing first 10 seconds of ECG data for ease of testing
